@@ -1,0 +1,299 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-transition: all 1s ease-in-out;
+}
+
+img {
+	border: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url(images/backgroundTile.jpg);
+	height: 100%;
+}
+
+#whiteGradient {
+	position: fixed;
+	width: 979px;
+	height: 224px;
+	left: 50%;
+	margin-left: -489px;
+	top: 0;
+	background-image: url(images/whiteGradient.jpg);
+	z-index: 5;
+}
+
+#backgroundGradient {
+	position: fixed;
+	top: 0;
+	height: 900px;
+	width: 100%;
+	background: url(images/backgroundGradient.jpg) repeat-x;
+	z-index: 4;
+}
+
+#card {
+	position: absolute;
+	width: 711px;
+	height: 291px;
+	left: 50%;
+	top: 50%;
+	margin-top: -146px;
+	margin-left: -355px;
+	background-image: url(images/card.png);
+	z-index: 100;
+	-webkit-transition: all 1s ease-in-out;
+}
+
+#icon img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+#copyright {
+	position: fixed;
+	bottom: 20px;
+	left: 30px;
+	width: 248px;
+	height: 13px;
+	background-image: url(images/copyright.png);
+	-webkit-transition: all .5s ease-in-out;
+	opacity: 0;
+	z-index: 200;
+}
+
+#title {
+	position: absolute;
+	width: 395px;
+	height: 14px;
+	background-image: url(images/title.png);
+	left: 50%;
+	margin-left: -351px;
+	top: 50%;
+	margin-top: -177px;
+	z-index: 120;
+	
+}
+
+#buttonContainer {
+	position: absolute;
+	width: 186px;
+	height: 24px;
+	background-image: url(images/buttonContainer.png);
+	left: 50%;
+	margin-left: 167px;
+	top: 50%;
+	margin-top: -183px;
+	z-index: 120;
+	opacity: .6;
+	cursor: pointer;
+	-webkit-transition: opacity .5s ease-in-out;
+}
+
+#buttonTitle {
+	position: absolute;
+	width: 186px;
+	height: 24px;
+	background-image: url(images/buttonTitle.png);
+	left: 50%;
+	margin-left: 167px;
+	top: 50%;
+	margin-top: -183px;
+	z-index: 121;
+	cursor: pointer;
+}
+
+#forIndexing {
+	z-index: 1;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	height: 0px;
+	overflow: hidden;
+	top: 50%;
+	margin-top: -50px;
+	width:400px;
+	
+}
+
+#animation {
+	width: 160px;
+	height: 117px;
+	left: 34px;
+	top: 74px;
+	position: absolute;
+	background-image: url(images/animation2.png);
+	background-image: url(images/animation1.png);
+	cursor: e-resize;
+	-webkit-transition-property: backgroundPosition;
+	-webkit-transition-duration: 0s;
+}
+
+#features {
+	position: absolute;
+	left: 220px;
+	top: 12px;
+	background-image: url(images/features.png);
+	width: 442px;
+	height: 257px;
+}
+
+#seeTheVideoTourBacking {
+	z-index: 99;
+	position: relative;
+	float: left;
+	width: 173px;
+	height: 39px;
+	background: url(images/topTagBackground.png);
+	opacity: .5;
+	top: 0px;
+	-webkit-transition: opacity .5s ease-in-out;
+	z-index: 200;
+}
+
+#tipsAndTricksBacking {
+	z-index: 99;
+	position: relative;
+	float: right;
+	width: 135px;
+	height: 39px;
+	background: url(images/topTagSmallBackground.png);
+	opacity: .5;
+	top: 0px;
+	-webkit-transition: opacity .5s ease-in-out;
+	z-index: 200;
+}
+
+
+#topLinks {
+	position: relative;
+	top: 0;
+	margin:0px auto;
+	width: 325px;
+	height: 20px;
+	z-index: 300;
+}
+
+#tipsAndTricks {
+	position: relative;
+	z-index: 99;
+	width: 135px;
+	height: 39px;
+	top: 0px;
+	float: left;
+	cursor: pointer;
+	z-index: 200;
+}
+
+
+#seeTheVideoTour {
+	position: relative;
+	z-index: 99;
+	width: 151px;
+	height: 16px;
+	top: 0px;
+	float: left;
+	padding: 10px;
+	cursor: pointer;
+	z-index: 200;
+}
+
+#interested {
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	width: 177px;
+	height: 13px;
+	background-image: url(images/interestedHover.png);
+	background-image: url(images/interested.png);
+	cursor: pointer;
+	-webkit-transition: all 1s ease-in-out;
+	z-index: 300;
+}
+
+#arrow {
+	position: fixed;
+	right: 62px;
+	bottom: 50px;
+	width: 87px;
+	height: 65px;
+	background-image: url(images/arrow.png);
+	cursor: pointer;
+	z-index: 98;
+	opacity: .8;
+}
+
+#text-box {
+	z-index: 100;
+	left: 50%;
+	top: 50%;
+	margin-top: 40px;
+	margin-left: -105px ;
+	width: 146px;
+	position: absolute;
+	font: 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #3e3c56;
+	background-color: #fff;
+	z-index: 1;
+	opacity: 0;
+}
+
+#submit-button {
+	z-index: 100;
+	left: 50%;
+	top: 50%;
+	margin-top: 44px;
+	margin-left: 55px ;
+	position: absolute;
+	text-align: center;
+	z-index: 1;
+	opacity: 0;
+}
+
+#ollieBubble {
+	position: fixed;
+	bottom: 37px;
+	left: 85px;
+	height: 130px;
+	width: 176px;
+	background-image: url(images/ollieBubble.png);
+	z-index: 99;
+	opacity: 0;
+	-webkit-transition: opacity .5s ease-out;
+}
+
+#ollieBubbleText {
+	position: absolute;
+	bottom: 58px;
+	left: 23px;
+	-webkit-transition: all .3s ease-in-out
+}
+
+#geoffBubbleText {
+	position: absolute;
+	bottom: 58px;
+	left: 6px;
+	-webkit-transition: all .3s ease-in-out
+}
+
+#geoffBubble {
+	position: fixed;
+	bottom: 37px;
+	left: 192px;
+	height: 130px;
+	width: 176px;
+	background-image: url(images/geoffBubble.png);
+	z-index: 99;
+	opacity: 0;
+	-webkit-transition: opacity .5s ease-out;
+}

@@ -1,0 +1,39 @@
+@import 'colors';
+@import 'form';
+@import 'mixins';
+@import 'type';
+
+html,body {
+    height: calc(100% - 200px);
+
+    @include phone {
+        height: 100%;
+    }
+}
+
+html {
+    background: $light-background;
+
+    @include dark {
+        background: $dark-background;
+    }
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    @include phone {
+        justify-items: flex-start;
+        align-items: flex-start;
+    }
+}
+
+#content {
+    @include phone {
+        margin-top: 40px;
+        margin: 40px 20px 0px 20px;
+    }
+}
