@@ -25,44 +25,57 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 
-    font-family: 'Baloo', sans-serif;
-    padding-left: 1px;
+    font-family: 'VAGRoundedStd', sans-serif;
     margin: 0;
 }
 
 h1 {
-    font-size: 20px;
-    line-height: 1.3em;
+    font-size: 42px;
+    line-height: 36px;
     color: $light-header;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
 
     @include dark {
         color: $dark-header;
     }
+}
 
-    span {
-        color: $light-subhead;
+h2 {
+    color: $light-subhead;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 24px;
 
-        @include dark {
-            color: $dark-subhead;
-        }
+    @include dark {
+        color: $dark-subhead;
     }
 }
 
-label {
-    color: $light-text;
-    font-size: 18px;
-    margin-bottom: 3px;
+h3 {
+    margin-top: 32px;
+    margin-bottom: 6px;
 
     @include dark {
         color: $dark-text;
     }
 }
 
+label {
+    color: $light-label;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 3px;
+
+    @include dark {
+        color: $dark-label;
+    }
+}
+
 p {
     color: $light-text;
     font-size: 16px;
-    margin-top: 20px;
+    line-height: 24px;
+    margin-bottom: 12px;
 
     @include dark {
         color: $dark-text;

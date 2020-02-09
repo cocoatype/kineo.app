@@ -4,11 +4,8 @@
 @import 'type';
 
 html,body {
-    height: calc(100% - 200px);
-
-    @include phone {
-        height: 100%;
-    }
+    margin: 0px;
+    // height: 100%;
 }
 
 html {
@@ -23,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    margin-top: 80px;
 
     @include phone {
         justify-items: flex-start;
@@ -32,8 +29,20 @@ body {
 }
 
 #content {
+    max-width: 512px;
     @include phone {
         margin-top: 40px;
         margin: 40px 20px 0px 20px;
     }
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0px;
+}
+
+img {
+    margin: auto;
 }
