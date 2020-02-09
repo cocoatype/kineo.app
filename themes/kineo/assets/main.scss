@@ -29,8 +29,10 @@ body {
 
 #content {
     margin-top: 80px;
-    max-width: 512px;
+    width: 512px;
     flex: 1;
+    margin-bottom: 42px;
+
     @include phone {
         margin-top: 40px;
         margin: 40px 20px 0px 20px;
