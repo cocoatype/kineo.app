@@ -54,6 +54,7 @@ h2 {
 h3 {
     margin-top: 32px;
     margin-bottom: 6px;
+    color: $light-text;
 
     @include dark {
         color: $dark-text;
