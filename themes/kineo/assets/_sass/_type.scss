@@ -1,31 +1,14 @@
-@font-face {
-    font-family: 'Baloo';
-    src: url('/fonts/Baloo-Regular.woff2') format('woff2'),
-        url('/fonts/Baloo-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'VAGRoundedStd';
-    src: url('/fonts/VAGRoundedStd-Bold.otf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'VAGRoundedStd';
-    src: url('/fonts/VAGRoundedStd-Light.otf');
-    font-weight: normal;
-    font-style: normal;
-}
+// from MyFonts
+@import url("//hello.myfonts.net/count/3afcdc");
+@font-face {font-family: 'VAGRoundedLTPro';font-weight: bold;src: url('/fonts/3AFCDC_0_0.eot');src: url('/fonts/3AFCDC_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/3AFCDC_0_0.woff2') format('woff2'),url('/fonts/3AFCDC_0_0.woff') format('woff'),url('/fonts/3AFCDC_0_0.ttf') format('truetype');}
+@font-face {font-family: 'VAGRoundedLTPro';font-weight: normal;src: url('/fonts/3AFCDC_1_0.eot');src: url('/fonts/3AFCDC_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/3AFCDC_1_0.woff2') format('woff2'),url('/fonts/3AFCDC_1_0.woff') format('woff'),url('/fonts/3AFCDC_1_0.ttf') format('truetype');}
 
 * {
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 
-    font-family: 'VAGRoundedStd', sans-serif;
+    font-family: 'VAGRoundedLTPro', sans-serif;
     margin: 0;
 }
 
