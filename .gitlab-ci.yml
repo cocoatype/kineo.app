@@ -1,0 +1,19 @@
+stages:
+  - build
+  - deploy
+variables:
+  LC_ALL: "en_US.UTF-8"
+  LANG: "en_US.UTF-8"
+build:
+  stage: build
+  artifacts:
+    paths:
+      - public
+  script:
+    - "hugo"
+deploy:
+  dependencies: [build]
+  stage: deploy
+  script: "hugo; rsync -avz -e \"ssh -i ~/.ssh/site_deploy -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null\" --progress public/ deploy@cocoatype.com:/srv/www/kineo"
+  only:
+    - master
