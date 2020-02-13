@@ -48,14 +48,19 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     margin: 24px 0px;
-}
+ }
 
 img {
     margin: auto;
     @include phone {
         max-width: 100%;
     }
+
+    background-image: url("/images/kineo-hero.png");
+    background-image: image-set(url("/images/kineo-hero.png") 1x,url("/images/kineo-hero@2x.png") 2x,url("/images/kineo-hero@3x.png") 3x,);
+    background-size: 100%;
 }
 
 footer {
