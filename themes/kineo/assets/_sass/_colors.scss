@@ -18,9 +18,18 @@ $standard700: #51456E;
 $standard800: #392F50;
 $standard900: #28213B;
 
+$accent100: #D6C9F8;
+$accent200: #BCA6F2;
+$accent300: #A283EC;
+$accent400: #8863E3;
+$accent500: #6F43DB;
+$accent600: #5426C5;
+$accent700: #421E9B;
+$accent800: #1F0A52;
+$accent900: #0D0226;
+
 $placeholder: $gray400;
 $shadow: rgba($gray800, 0.2);
-
 
 // Light Colors
 $light-background: $gray200;
@@ -30,6 +39,8 @@ $light-text: $gray700;
 $light-link: $standard700;
 $light-label: $standard500;
 $light-footer: $gray300;
+$light-button: $standard600;
+$light-button-label: $gray100;
 
 // Dark Colors
 $dark-background: $gray900;
@@ -39,3 +50,5 @@ $dark-text: $gray300;
 $dark-link: $standard300;
 $dark-label: $standard300;
 $dark-footer: $gray800;
+$dark-button: $standard600;
+$dark-button-label: $gray100;
