@@ -120,3 +120,11 @@ footer {
         align-items: center;
     }
 }
+
+li {
+    color: $light-text;
+
+    @include dark {
+        color: $dark-text;
+    }
+}
