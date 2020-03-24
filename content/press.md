@@ -48,7 +48,30 @@ Kineo is older than it looks. The first version of Kineo was released on August 
 I've also uploaded the [original Kineo website](/legacy) if you want a taste of what app development looked like more than a decade ago.
 
 ### Seeing is Believing.
-Here’s all the pretty visual things like screenshots, app icons, and sample animations. Click or tap on each item to get the full resolution version. Just want to grab everything? [Download the full press kit](/press.zip).
+Here’s all the pretty visual things like screenshots, app icons, and sample animations. Actual image preview coming soon. Just want to grab everything? [Download the full press kit](/press.zip).
+
+**Sample Animations**
+
+- [Bouncing Ball](/press/Bouncing%20Ball.mp4)
+- [Shooting Star](/press/Shooting%20Star.mp4)
+
+**iPad Screenshots**
+
+- [Drawing (Dark Mode)](/press/iPad%20Drawing%20(Dark).png)
+- [Drawing (Light Mode)](/press/iPad%20Drawing%20(Light).png)
+- [Side by Side (Dark Mode)](/press/iPad%20Side%20By%20Side%20(Dark).png)
+- [Side by Side (Light Mode)](/press/iPad%20Side%20By%20Side%20(Light).png)
+
+**iPhone Screenshots**
+
+- [Drawing (Dark Mode)](/press/iPhone%20Drawing%20(Dark).png)
+- [Drawing (Light Mode)](/press/iPhone%20Drawing%20(Light).png)
+- [Tools (Dark Mode)](/press/iPhone%20Tools%20(Dark).png)
+- [Tools (Light Mode)](/press/iPhone%20Tools%20(Light).png)
+
+**Assets**
+
+- [App Icon](/press/App%20Icon.png)
 
 ### Ask Me Anything.
 Didn’t find what you were looking for? Have questions, interview requests, or bribes? I can be reached at [hello@cocoatype.com](mailto:hello@cocoatype.com).
