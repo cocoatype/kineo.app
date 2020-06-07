@@ -32,23 +32,23 @@ $placeholder: $gray400;
 $shadow: rgba($gray800, 0.2);
 
 // Light Colors
-$light-background: $gray200;
-$light-header: $gray900;
-$light-subhead: $gray600;
-$light-text: $gray700;
-$light-link: $standard700;
+$light-background: $gray100;
+$light-header: $standard800;
+$light-subhead: $standard600;
+$light-text: $gray900;
+$light-link: $accent600;
 $light-label: $standard500;
-$light-footer: $gray300;
+$light-footer: $gray100;
 $light-button: $standard600;
 $light-button-label: $gray100;
 
 // Dark Colors
-$dark-background: $gray900;
-$dark-header: $gray100;
-$dark-subhead: $gray500;
-$dark-text: $gray300;
-$dark-link: $standard300;
+$dark-background: $standard900;
+$dark-header: $gray200;
+$dark-subhead: $accent100;
+$dark-text: $gray200;
+$dark-link: $accent100;
 $dark-label: $standard300;
-$dark-footer: $gray800;
+$dark-footer: $standard800;
 $dark-button: $standard600;
 $dark-button-label: $gray100;
