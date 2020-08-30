@@ -5,6 +5,8 @@ date: 2020-08-23
 
 Here's another small bug-fix release, focused again on fixing undo issues! I'm hoping I've really fixed it this time, so I can focus on more-impactful features for once.
 
+<!--more-->
+
 I've also improved the preview that you get when sharing animations. Rather than a text insertion point (which is pretty odd for a video), you'll now see a thumbnail of your animation.
 
 Speaking of thumbnails, I fixed a minor coloring issue they had. Now the thumbnail should look more like your actual animation!
