@@ -11,4 +11,5 @@
     {{ $style := $sass | resources.ToCSS $styleOptions }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}"/>
     <link rel="canonical" href="{{ .Permalink }}"/>
+    <link rel="icon" href="/favicon.ico" />
 </head>
