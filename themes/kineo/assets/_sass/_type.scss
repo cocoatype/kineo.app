@@ -55,7 +55,7 @@ label {
     }
 }
 
-p {
+p,code {
     color: $light-text;
     font-size: 16px;
     line-height: 24px;
@@ -64,6 +64,10 @@ p {
     @include dark {
         color: $dark-text;
     }
+}
+
+code {
+    font-family: ui-monospace, monospace;
 }
 
 a {
