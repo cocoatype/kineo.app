@@ -54,9 +54,7 @@ body {
 
 img {
     margin: auto;
-    @include phone {
-        max-width: 100%;
-    }
+    max-width: 100%;
 }
 
 #index-hero {

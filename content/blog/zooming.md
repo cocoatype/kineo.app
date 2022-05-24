@@ -37,11 +37,11 @@ One thing that artists want out of zooming is being able to make smaller changes
 
 But basic zooming works more like a real-world magnifying glass; simply viewing an image through a magnifying glass doesn't cause the pencil you're drawing with to do anything different. The image looks larger… but so does the pencil!
 
-![An example showing a zoomed-in pencil mark, the same size as the regular pencil mark](/images/blog/zooming/tool-zoom)
+![An example showing a zoomed-in pencil mark, the same size as the regular pencil mark](/images/blog/zooming/tool-zoom.png)
 
 Kineo Pro gets around this by not simply zooming the display of the image you're working on; it scales it up so that you're effectively working on a much larger "canvas". Your tools are the same size they've always been, but they're now working on a much bigger image than they were before. As such, they now scale in inverse proportion to the part of the image you're working on!
 
-![An example showing a scaled pencil mark, now much smaller than the original pencil mark](/images/blog/zooming/tool-scale)
+![An example showing a scaled pencil mark, now much smaller than the original pencil mark](/images/blog/zooming/tool-scale.png)
 
 ### In Conclusion…
 
