@@ -2,3 +2,8 @@ baseURL = "https://kineo.app/"
 languageCode = "en-us"
 title = "Kineo"
 theme = "kineo"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
