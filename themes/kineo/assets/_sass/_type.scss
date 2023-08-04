@@ -106,3 +106,14 @@ ul {
         }
     }
 }
+
+figcaption {
+    color: $light-text;
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-align: center;
+
+    @include dark {
+        color: $dark-text;
+    }
+}
