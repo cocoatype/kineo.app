@@ -18,7 +18,7 @@ Kineo shows you faint reminders of the last few pages, making it easy to draw th
 [Cocoatype](https://cocoatype.com). Which is just me, [Geoff Pado](#me).
 
 **Price**  
-Free! Really free. No ads, no selling data, no microtransactions.  
+Free to download, and an in-app purchase of $4.99 unlocks some additional features such as photo backgrounds, watermark removal, etc. The in-app purchase is currently unavailable on visionOS.
 
 **Release Date**  
 April 1, 2020. Or August 4, 2008. [It’s complicated.](#history)
@@ -68,6 +68,12 @@ Here’s all the pretty visual things like screenshots, app icons, and sample an
 - [Drawing (Light Mode)](/press/iPhone%20Drawing%20(Light).png)
 - [Tools (Dark Mode)](/press/iPhone%20Tools%20(Dark).png)
 - [Tools (Light Mode)](/press/iPhone%20Tools%20(Light).png)
+
+**Vision Pro Screenshots**
+
+- [Drawing](/press/Vision%20Pro%20Drawing.png)
+- [Layers](/press/Vision%20Pro%20Layers.png)
+- [Sharing](/press/Vision%20Pro%20Sharing.png)
 
 **Assets**
 
