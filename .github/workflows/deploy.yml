@@ -4,6 +4,7 @@ on:
     branches:
       - "deploy"
       - "3-migrate-to-github-actions"
+runs-on: "ubuntu-22.04"
 
 jobs:
   build:
