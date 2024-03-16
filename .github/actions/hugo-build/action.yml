@@ -1,0 +1,13 @@
+name: "Hugo Build"
+description: "Builds the website with Hugo"
+runs:
+  using: "composite"
+
+  steps:
+    - name: "Install Hugo"
+      shell: "bash"
+      run: "apt-get install hugo=0.123.8"
+
+    - name: "Build Site"
+      shell: "bash"
+      run: "hugo"
