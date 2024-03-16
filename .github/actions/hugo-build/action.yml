@@ -4,9 +4,13 @@ runs:
   using: "composite"
 
   steps:
+    - name: "Download Hugo"
+      shell: "bash"
+      run: "wget https://github.com/gohugoio/hugo/releases/download/v0.123.8/hugo_extended_0.123.8_linux-amd64.deb"
+
     - name: "Install Hugo"
       shell: "bash"
-      run: "sudo apt-get install hugo=0.123.8"
+      run: "sudo apt install ./hugo_extended_0.123.8_linux-amd64.deb"
 
     - name: "Build Site"
       shell: "bash"
