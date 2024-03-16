@@ -4,11 +4,11 @@ on:
     branches:
       - "deploy"
       - "3-migrate-to-github-actions"
-runs-on: "ubuntu-22.04"
 
 jobs:
   build:
     name: "Build Site"
+    runs-on: "ubuntu-22.04"
     steps:
       - name: "Run Hugo"
         uses: "./.github/actions/hugo-build"
@@ -22,6 +22,7 @@ jobs:
 
   publish:
     name: "Publish Site"
+    runs-on: "ubuntu-22.04"
     needs: "build"
     steps:
       - name: "Download Built Site"
