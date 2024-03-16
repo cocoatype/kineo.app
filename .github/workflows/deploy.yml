@@ -34,8 +34,5 @@ jobs:
           name: "Built Site"
           path: "public"
 
-      - name: "Save Deploy Key"
-        run: "echo -n \"${{ secrets.DEPLOY_KEY }}\" > deploy_key"
-        
       - name: "Publish Built Site"
-        run: "rsync -avz -e \"ssh -i ./deploy_key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null\" --progress public/ deploy@5.161.79.225:/srv/www/kineo"
+        run: "rsync -avz -e \"ssh -i <(echo -n \"${{ secrets.DEPLOY_KEY }}\") ./deploy_key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null\" --progress public/ deploy@5.161.79.225:/srv/www/kineo"
