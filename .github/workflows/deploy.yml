@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - "deploy"
-      - "3-migrate-to-github-actions"
 
 jobs:
   build:
