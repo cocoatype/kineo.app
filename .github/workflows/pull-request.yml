@@ -12,4 +12,3 @@ jobs:
 
       - name: "Run Hugo"
         uses: "./.github/actions/hugo-build"
-        
